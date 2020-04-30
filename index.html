@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head> <!-- Início da "cabeça" da página Web -->
+    <title>Tabela turma AIB</title> <!-- Título da página Web -->
+	<style> /* Utilização de CSS para edição da tabela */
+		table, tr, td { /* Comandos dentro das chavetas serão aplicados tanto à generalidade da tabela, como também às suas colunas e linhas */
+		  background-color: #99ccff; /* Define a cor de fundo da tabela */
+		} 
+		tr, td {
+		  width: 125px; /* Largura standard de 125px para todas as células */
+		  text-align: center; /* Centrar o conteúdo das células */
+		}
+		td#td01{
+			background-color: #ffffff; /* Define a cor das células cujo o id="td01", que são todas as células sem conteúdo */
+		}
+		.p01{ /* Altera a cor do texto na linha que eu identifiquei com a classe "p01" */
+			color: #009900;
+		}
+		.p02{ /* Altera a cor do texto na linha que eu identifiquei com a classe "p02" */
+			color: #ffffff;
+		}
+		.p03{ /* Altera a cor do texto na linha que eu identifiquei com a classe "p03" */
+			color: #ff00ff;
+		}
+    </style> <!-- Fim do CSS -->
+    </head> <!-- Fim da "cabeça" da página Web -->
+    <body> <!-- Início do corpo do página Web -->
+    	<table border="2" align="center"> <!-- Define a espessura da borda da tabela e o seu posicionamento na página Web, neste caso, centralizado -->
+          <tr class="p01"> <!-- Início da primeira linha -->
+              <td id="td01"></td> <!-- Como esta célula não possui conteúdo, dei-lhe o id que todas as células com o mesmo parâmetro tem, para que seja sujeita à mesma formatação -->
+              <td><p></p><a href="imagens\nuno900x1200.jpg" target="_blank"><img src="imagens\nuno75x100.jpg" alt="Caricatura Nuno"></a><p>12º2<br>Nº19<br>Nuno Pires</p></td>
+			  <!-- A linha de cima possui o funcionamento geral da maioria das outras linhas. É colocado dentro de uma célula uma imagem que ao ser clicada abre a mesma imagem com maior resolução noutro separador (target="blank").
+			  A seguir são criados três parágrafos em que cada um possui uma informação diferente: turnma, número e nome //-->
+              <td><p></p><a href="imagens\foto1.jpg" target="_blank"><img src="imagens\foto2.jpg" alt="Caricatura Camily"></a><p>12º2<br>Nº3<br>Camily Lopes</p></td>
+              <td><p></p><a href="imagens\amaral900x1200.jpg" target="_blank"><img src="imagens\amaral75x100.jpg" alt="Caricatura Amaral"></a><p>12º2<br>Nº2<br>António Amaral</p></td>
+              <td width=100px rowspan="4" id="td01"></td> <!-- Como esta célula não possui conteúdo, dei-lhe o id que todas as células com o mesmo parâmetro tem, para que seja sujeita à mesma formatação. 
+			  Para além disso, por corresponder ao corredor central possui uma largura superior às outras células, resultando também de um merge vertical de 4 células //-->
+              <td><p></p><a href="imagens\900x1200.jpg" target="_blank"><img src="imagens\75x100.jpg" alt="Caricatura João Silva"></a><p>12º2<br>Nº16<br>João Silva</p></td>
+              <td><p></p><a href="imagens\pedroperes900x1200.jpg" target="_blank"><img src="imagens\pedroperes75x100.jpg" alt="Caricatura Pedro Peres"></a><p>12º2<br>Nº21<br>Pedro Peres</p></td>
+              <td><p></p><a href="imagens\correia900x1200.jpg" target="_blank"><img src="imagens\correia75x100.jpg" alt="Caricatura Miguel"></a><p>12º2<br>Nº18<br>Miguel Correia</p></td>
+              <td><p></p><a href="imagens\leal900x1200.jpg" target="_blank"><img src="imagens\leal75x100.jpg" alt="Caricatura João Leal"></a><p>12º2<br>Nº15<br>João Leal</p></td>
+          </tr> <!-- Fim da primeira linha -->
+          <tr class="p02"> <!-- Início da segunda linha -->
+              <td><p></p><a href="imagens\foto1.jpg" target="_blank"><img src="imagens\foto2.jpg" alt="Caricatura Xavier"></a><p>12º6<br>Nº25<br>Xavier Alves</p></td>
+              <td><p></p><a href="imagens\foto1.jpg" target="_blank"><img src="imagens\foto2.jpg" alt="Caricatura Henrique"></a><p>12º2<br>Nº9<br>Henrique Silva</p></td>
+              <td><p></p><a href="imagens\francisco900x1200.jpg" target="_blank"><img src="imagens\francisco75x100.jpg" alt="Caricatura Francisco Almeida"></a><p>12º2<br>Nº6<br>Francisco Almeida</p></td>
+              <td><p></p><a href="imagens\foto1.jpg" target="_blank"><img src="imagens\foto2.jpg" alt="Caricatura Guilherme Cabo"></a><p>12º2<br>Nº7<br>Guilherme Cabo</p></td>
+              <td><p></p><a href="imagens\seba900x1200.jpg" target="_blank"><img src="imagens\seba75x100.jpg" alt="Caricatura Sebastião"></a><p>12º2<br>Nº24<br>Sebastião</p></td>
+              <td><p></p><a href="imagens\valiente900x1200.jpg" target="_blank"><img src="imagens\valiente75x100.jpg" alt="Caricatura Guilherme Valiente"></a><p>12º2<br>Nº8<br>Guilherme Valiente</p></td>
+              <td><p></p><a href="imagens\foto1.jpg" target="_blank"><img src="imagens\foto2.jpg" alt="Caricatura Diogo Santos"></a><p>12º2<br>Nº5<br>Diogo Santos</p></td>
+              <td><p></p><a href="imagens\fialho900x1200.jpg" target="_blank"><img src="imagens\fialho75x100.jpg" alt="Caricatura Ricardo Fialho"></a><p>12º2<br>Nº23<br>Ricardo Fialho</p></td>
+          </tr> <!-- Fim da segunda linha -->
+          <tr class="p03"> <!-- Início da terceira linha -->
+              <td><p></p><a href="imagens\foto1.jpg" target="_blank"><img src="imagens\foto2.jpg" alt="Caricatura Francisco Borges"></a><p>12º2<br>Nº13<br>Francisco Borges</p></td>
+              <td><p></p><a href="imagens\foto1.jpg" target="_blank"><img src="imagens\foto2.jpg" alt="Caricatura Paulo"></a><p>12º2<br>Nº20<br>Paulo</p></td>
+              <td><p></p><a href="imagens\foto1.jpg" target="_blank"><img src="imagens\foto2.jpg" alt="Caricatura Leonardo"></a><p>12º6<br>Nº14<br>Leonardo</p></td>
+              <td><p></p><a href="imagens\foto1.jpg" target="_blank"><img src="imagens\foto2.jpg" alt="Caricatura Miriam"></a><p>12º6<br>Nº19<br>Miriam</p></td>
+              <td><p></p><a href="imagens\foto1.jpg" target="_blank"><img src="imagens\foto2.jpg" alt="Caricatura Daniel Dias"></a><p>12º2<br>Nº4<br>Daniel Dias</p></td>
+              <td><p></p><a href="imagens\azevedo900x1200.jpg" target="_blank"><img src="imagens\azevedo75x100.jpg" alt="Caricatura João Azevedo"></a><p>12º2<br>Nº14<br>João Azevedo</p></td>
+              <td><p></p><a href="imagens\adrejesus900x1200.jpg" target="_blank"><img src="imagens\andrejesus75x100.jpg" alt="Caricatura André"></a><p>12º6<br>Nº4<br>André Jesus</p></td>
+              <td><p></p><a href="imagens\nyck900x1200.jpg" target="_blank"><img src="imagens\nyck75x100.jpg" alt="Caricatura Nyckollas"></a><p>12º6<br>Nº20<br>Nyckollas</p></td>
+          </tr> <!-- Fim da terceira linha. Este linha possui apenas 60pixels de altura, menos que todas as outras, apenas porque achei que ficava mais bonito -->
+          <tr height=60px> <!-- Início da quarta linha -->
+            <td colspan="2" id="td01"> <!-- Como esta célula não possui conteúdo, dei-lhe o id que todas as células com o mesmo parâmetro tem, para que seja sujeita à mesma formatação -->
+            <td colspan="2">Professor Luís Pitta</td> <!-- Célula resultante de duas células ppara representar o facto de o setor ocupar uma mesa inteira -->
+			<td colspan="4" id="td01"></td> <!-- Como esta célula não possui conteúdo, dei-lhe o id que todas as células com o mesmo parâmetro tem, para que seja sujeita à mesma formatação -->
+          </tr> <!-- Fim da quarta linha -->
+        </table> <!-- Fim da tabela -->
+    </body> <!-- Fim do corpo da página Web -->
+</html>
